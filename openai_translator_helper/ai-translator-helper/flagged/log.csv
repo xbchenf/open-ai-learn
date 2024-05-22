@@ -1,0 +1,5 @@
+上传PDF文件,选择目标语言,选择大模型,选择输出格式,输出结果,flag,username,timestamp
+flagged\上传PDF文件\d621cfd1af9d1ed8ae94\test.docx,中文,OpenAIModel,PDF,,,,2024-04-06 21:43:49.581443
+flagged\上传PDF文件\d590a3aae5245250695e\test1.pdf,中文,OpenAIModel,Markdown,,,,2024-04-07 11:34:20.782207
+flagged\上传PDF文件\6400bd561edbd8e379b1\test1.pdf,中文,OpenAIModel,Markdown,,,,2024-04-07 11:34:21.881093
+flagged\上传PDF文件\ab5bd546b6aede51e67c\test2.pdf,中文,OpenAIModel,PDF,翻译成功! 输出到：C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2_translated.pdf,,,2024-04-07 14:17:25.991576

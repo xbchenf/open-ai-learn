@@ -1,0 +1,569 @@
+2024-04-06 21:42:23.354 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\3806b20f9453c265787f9ae9c91a0fe333635b40\test.docx
+2024-04-06 21:42:23.357 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 21:47:25.556 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\3806b20f9453c265787f9ae9c91a0fe333635b40\test.docx
+2024-04-06 21:47:25.556 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 21:48:16.358 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\3806b20f9453c265787f9ae9c91a0fe333635b40\test.docx
+2024-04-06 21:48:16.360 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 21:54:53.602 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 21:54:53.604 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 21:54:53.698 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 21:54:53.699 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 21:59:29.783 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 21:59:29.784 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 21:59:29.868 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 21:59:29.870 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 21:59:29.870 | INFO     | model.opeanai.openai_model:make_request:19 - model: gpt-3.5-turbo
+2024-04-06 22:24:52.799 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:24:52.800 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 22:24:52.898 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 22:24:52.900 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 22:24:52.901 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:24:57.433 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变形金刚
+在变形金刚之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将序列作为输入时，它逐字逐句地处理句子。它采用了顺序处理，不能并行执行。此外，当这些序列过长时，模型往往会忘记序列中远处位置的内容，或将其与后续位置的内容混淆。
+这里是一个简单的 ASCII 表示：
+变形金刚提出了一种新方法。它建议对每个位置进行编码，并应用注意力机制来关联两个远距离的词，然后可以并行化，从而加快训练速度。
+2024-04-06 22:24:57.434 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 22:24:57.446 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:24:58.602 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[编号，水果，价格（美元）] [1，苹果，1.5] [2，香蕉，3.5] [3，梨，2.7] [4，橙子，3]'
+2024-04-06 22:24:58.604 | DEBUG    | document.content:set_translation:95 - 表格：[编号,水果,价格（美元）] [1,苹果,1.5] [2,香蕉,3.5] [3,梨,2.7] [4,橙子,3]
+2024-04-06 22:24:58.612 | DEBUG    | document.content:set_translation:112 -   表格：[编号  水果 价格（美元）
+0      1  苹果    1.5
+1      2  香蕉    3.5
+2      3   梨    2.7
+3      4  橙子      3
+2024-04-06 22:24:58.622 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 22:24:58.623 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:24:59.159 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - ''
+2024-04-06 22:24:59.161 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:24:59.165 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 22:38:50.959 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:38:50.960 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 22:38:51.055 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 22:38:51.058 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 22:38:51.058 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:38:55.076 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 'Transformer
+¶¶¶
+在Transformer之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它会逐个单词地处理句子。它采用了顺序处理，不能并行执行。此外，当这些序列过长时，模型往往会忘记序列中远处位置的内容或将其与后续位置的内容混合在一起。
+¶¶¶
+下面是一个简单的ASCII表示：
+¶¶¶
+Transformer提出了一种新的方法。它建议对每个位置进行编码，并应用注意机制来关联两个远距离的词，然后可以并行化处理，从而加快训练速度。'
+2024-04-06 22:38:55.077 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 22:38:55.079 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:38:56.019 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[编号，水果，价格(美元)] [1，苹果，1.5] [2，香蕉，3.5] [3，梨子，2.7] [4，橙子，3]'
+2024-04-06 22:38:56.020 | DEBUG    | document.content:set_translation:95 - 表格：[编号,水果,价格(美元)] [1,苹果,1.5] [2,香蕉,3.5] [3,梨子,2.7] [4,橙子,3]
+2024-04-06 22:38:56.023 | DEBUG    | document.content:set_translation:112 -   表格：[编号  水果 价格(美元)
+0      1  苹果    1.5
+1      2  香蕉    3.5
+2      3  梨子    2.7
+3      4  橙子      3
+2024-04-06 22:38:56.029 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 22:38:56.029 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:38:56.652 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 没有提供文本，请提供要翻译的内容。
+2024-04-06 22:38:56.653 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:38:56.657 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 22:52:32.145 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:53:31.263 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 22:53:31.370 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 22:53:31.372 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 22:53:31.373 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:53:35.213 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它会逐个单词地处理句子。它采用顺序处理，无法并行执行。此外，当这些序列过长时，模型往往会忘记序列中的遥远位置上的内容，或者将其与后续位置的内容混在一起。
+这里是一个简单的ASCII表示：
+变压器提出了一种新方法。它建议对每个位置进行编码，并应用注意力机制来关联两个远距离的单词，然后可以并行化，从而加快训练速度。
+2024-04-06 22:53:40.050 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 22:53:40.053 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:53:41.835 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[序号, 水果, 价格($)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]'
+2024-04-06 22:53:41.836 | DEBUG    | document.content:set_translation:95 - 表格：[序号, 水果, 价格($)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]
+2024-04-06 22:53:41.840 | DEBUG    | document.content:set_translation:112 -   表格：[序号  水果 价格($)
+0      1  苹果   1.5
+1      2  香蕉   3.5
+2      3   梨   2.7
+3      4  橙子     3
+2024-04-06 22:53:41.847 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 22:53:41.848 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 22:53:42.687 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - " " -> " "
+2024-04-06 22:53:42.687 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 22:53:42.689 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 23:00:03.279 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:00:03.281 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:00:03.444 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:00:03.447 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 23:00:03.448 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:00:07.736 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+¶¶¶
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将序列作为输入时，它逐字逐句处理句子。它采用顺序处理，无法并行执行。此外，当这些序列过长时，模型往往会忘记序列中较远位置的内容，或将其与随后位置的内容混合在一起。
+¶¶¶
+以下是一个简单的ASCII表示：
+¶¶¶
+变压器提出了一种新方法。它提议对每个位置进行编码，并应用注意力机制来关联两个远距离的单词，从而可以进行并行化处理，加快训练速度。
+2024-04-06 23:00:07.737 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:00:07.738 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:00:09.141 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[编号，水果，价格($)] [1，苹果，1.5] [2，香蕉，3.5] [3，梨，2.7] [4，橙子，3]'
+2024-04-06 23:00:09.142 | DEBUG    | document.content:set_translation:95 - 表格：[编号,水果,价格($)] [1,苹果,1.5] [2,香蕉,3.5] [3,梨,2.7] [4,橙子,3]
+2024-04-06 23:00:09.143 | DEBUG    | document.content:set_translation:112 -   表格：[编号  水果 价格($)
+0      1  苹果   1.5
+1      2  香蕉   3.5
+2      3   梨   2.7
+3      4  橙子     3
+2024-04-06 23:00:09.147 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 23:00:09.147 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:00:10.266 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - There is no text provided to translate into Chinese.
+2024-04-06 23:00:10.267 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:00:10.268 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 23:00:10.330 | INFO     | translator.writer:_save_translated_book_pdf:83 - content_item
+2024-04-06 23:00:10.331 | INFO     | translator.writer:_save_translated_book_pdf:84 - ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_paragraph', 'apply_translated_paragraphs', 'check_translation_type', 'content_type', 'get_original_as_str', 'iter_items', 'layout', 'original', 'paragraphs', 'prepare_translation_input', 'set_translation', 'status', 'style', 'translation', 'update_item', 'update_layout']
+2024-04-06 23:11:04.727 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:11:04.729 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:11:04.851 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:11:04.852 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 23:11:04.852 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:11:08.505 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它逐个处理句子中的每个词。它采用顺序处理，不能并行执行。此外，当这样的序列过长时，模型往往会忘记序列中远处位置的内容，或者将其与后续位置的内容混合在一起。
+这里有一个简单的ASCII表示：
+变压器提出一种新的方法。它建议对每个位置进行编码，并应用注意力机制来关联两个远距离的词，然后可以并行化处理，从而加快训练速度。
+2024-04-06 23:11:08.506 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:11:08.508 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:11:09.528 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[编号，水果，价格(美元)] [1，苹果，1.5] [2，香蕉，3.5] [3，梨，2.7] [4，橙子，3]'
+2024-04-06 23:11:09.529 | DEBUG    | document.content:set_translation:95 - 表格：[编号,水果,价格(美元)] [1,苹果,1.5] [2,香蕉,3.5] [3,梨,2.7] [4,橙子,3]
+2024-04-06 23:11:09.533 | DEBUG    | document.content:set_translation:112 -   表格：[编号  水果 价格(美元)
+0      1  苹果    1.5
+1      2  香蕉    3.5
+2      3   梨    2.7
+3      4  橙子      3
+2024-04-06 23:11:09.538 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 23:11:09.538 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:11:10.109 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 暂无信息
+2024-04-06 23:11:10.110 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:11:10.111 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 23:16:50.698 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\e13f9a611a042c4fa5ae906a4d7a46f77a90c2f6\test1.pdf
+2024-04-06 23:16:50.700 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:16:50.721 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+BeforeTransformer'
+Translation (to Chinese):
+2024-04-06 23:16:50.722 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:16:53.335 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - '变压器
+¶¶¶
+之前变压器'
+2024-04-06 23:16:53.336 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\e13f9a611a042c4fa5ae906a4d7a46f77a90c2f6\test1.pdf
+2024-04-06 23:16:53.337 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\e13f9a611a042c4fa5ae906a4d7a46f77a90c2f6\test1_translated.pdf
+2024-04-06 23:16:53.410 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\86187\AppData\Local\Temp\gradio\e13f9a611a042c4fa5ae906a4d7a46f77a90c2f6\test1_translated.pdf
+2024-04-06 23:18:42.241 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\49156f47be16561d8ea31f6c6d2042b32f1c5dfe\test1.pdf
+2024-04-06 23:18:42.242 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:18:42.303 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:18:42.304 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+BeforeTransformer Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer'
+Translation (to Chinese):
+2024-04-06 23:18:42.305 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:18:43.692 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+¶¶¶
+在这里是一个简单的ASCII表示：
+¶¶¶
+变压器
+2024-04-06 23:18:43.694 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:18:43.698 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:18:44.723 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - ‘[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]’
+2024-04-06 23:18:44.724 | DEBUG    | document.content:set_translation:95 - ‘[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]’
+2024-04-06 23:18:44.728 | DEBUG    | document.content:set_translation:112 -   ‘[编号  水果 价格(美元)
+0    1  苹果    1.5
+1    2  香蕉    3.5
+2    3   梨    2.7
+3    4  橙子    3]’
+2024-04-06 23:18:44.735 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\49156f47be16561d8ea31f6c6d2042b32f1c5dfe\test1.pdf
+2024-04-06 23:18:44.735 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\49156f47be16561d8ea31f6c6d2042b32f1c5dfe\test1_translated.pdf
+2024-04-06 23:18:44.863 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\86187\AppData\Local\Temp\gradio\49156f47be16561d8ea31f6c6d2042b32f1c5dfe\test1_translated.pdf
+2024-04-06 23:20:27.172 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-06 23:20:27.173 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:20:27.342 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:20:27.343 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 23:20:27.344 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:20:31.459 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - '变压器
+¶¶¶
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将该序列作为输入时，它会逐个单词地处理每个句子。它采用顺序处理，无法并行执行。此外，当这些序列过长时，模型往往会在序列的远处位置忘记内容或将其与后续位置的内容混淆。
+¶¶¶
+这里是一个简单的ASCII表示：
+¶¶¶
+变压器提出了一种新方法。它建议对每个位置进行编码，并应用注意机制来关联两个远离的单词，这样可以并行化，从而加快训练速度。'
+2024-04-06 23:20:31.461 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:20:31.461 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:20:32.494 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格：'[编号，水果，价格(美元)] [1，苹果，1.5] [2，香蕉，3.5] [3，梨，2.7] [4，橙子，3]'
+2024-04-06 23:20:32.495 | DEBUG    | document.content:set_translation:95 - 表格：[编号,水果,价格(美元)] [1,苹果,1.5] [2,香蕉,3.5] [3,梨,2.7] [4,橙子,3]
+2024-04-06 23:20:32.496 | DEBUG    | document.content:set_translation:112 -   表格：[编号  水果 价格(美元)
+0      1  苹果    1.5
+1      2  香蕉    3.5
+2      3   梨    2.7
+3      4  橙子      3
+2024-04-06 23:20:32.500 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-06 23:20:32.501 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1_translated.pdf
+2024-04-06 23:20:32.567 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1_translated.pdf
+2024-04-06 23:21:02.814 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:21:02.815 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:21:02.922 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:21:02.924 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 23:21:02.924 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:21:07.846 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它会逐个单词地处理句子。它采用了顺序处理，不能并行执行。此外，当这样的序列太长时，模型往往会忘记序列中远处位置的内容，或者在后续位置混合内容。
+这里有一个简单的ASCII表示：
+变压器提出了一种新的方法。它提出对每个位置进行编码，并应用注意机制来关联两个远距离的词，然后可以并行化，从而加快训练速度。
+2024-04-06 23:21:07.848 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:21:07.849 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:21:09.240 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格: '[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]'
+2024-04-06 23:21:09.241 | DEBUG    | document.content:set_translation:95 - 表格: [编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]
+2024-04-06 23:21:09.242 | DEBUG    | document.content:set_translation:112 -   表格: [编号  水果 价格(美元)
+0       1  苹果    1.5
+1       2  香蕉    3.5
+2       3   梨    2.7
+3       4  橙子      3
+2024-04-06 23:21:09.247 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: ''
+Translation (to Chinese):
+2024-04-06 23:21:09.247 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:21:09.868 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - ' 'Translation (to Chinese): ' '
+2024-04-06 23:21:09.869 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test.pdf
+2024-04-06 23:21:09.869 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\119d78fb1a279c515f5bbc746ddc904a328f2115\test_translated.pdf
+2024-04-06 23:27:20.922 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\4f8bdaa24b760a9d76c89eefd4c0e39f41bb296e\test.pdf
+2024-04-06 23:27:20.922 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:27:21.019 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:27:21.021 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-06 23:27:21.022 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:27:25.566 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它会逐字逐句处理。它采用了一种顺序处理，并且无法并行执行。此外，当这些序列太长时，模型往往会忘记序列中远处位置的内容，或者将其与后续位置的内容混在一起。
+以下是一个简单的ASCII表示：
+变压器提出了一种新的方法。它提出对每个位置进行编码，并应用注意机制将两个远距离的单词相关联，然后可以并行化，从而加快训练速度。
+2024-04-06 23:27:25.567 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:27:25.568 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:27:27.022 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格: '[编号, 水果, 价格($)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨子, 2.7] [4, 橙子, 3]'
+2024-04-06 23:27:27.023 | DEBUG    | document.content:set_translation:95 - 表格: [编号, 水果, 价格($)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨子, 2.7] [4, 橙子, 3]
+2024-04-06 23:27:27.024 | DEBUG    | document.content:set_translation:112 -   表格: [编号  水果 价格($)
+0       1  苹果   1.5
+1       2  香蕉   3.5
+2       3  梨子   2.7
+3       4  橙子     3
+2024-04-06 23:27:27.029 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer'
+Translation (to Chinese):
+2024-04-06 23:27:27.030 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:27:28.058 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器 (Biàn yā qì)
+2024-04-06 23:27:28.060 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\4f8bdaa24b760a9d76c89eefd4c0e39f41bb296e\test.pdf
+2024-04-06 23:27:28.062 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\4f8bdaa24b760a9d76c89eefd4c0e39f41bb296e\test_translated.pdf
+2024-04-06 23:30:32.038 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\ef5c06a2f96f3388e2fe155d72ddf16a3185574c\test.pdf
+2024-04-06 23:30:32.039 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-06 23:30:32.116 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-06 23:30:32.117 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformerproposesanewapproach.
+¶¶¶
+Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-06 23:30:32.118 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:30:34.981 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 变压器
+在Transformer之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将序列作为输入时，它逐字逐句处理句子。它采用了顺序处理，并且不能并行执行。此外，当这些序列过长时，模型往往会忘记序列中较远位置的内容，或将其与后续位置的内容混合在一起。
+这里是一个简单的ASCII表示：
+Transformer提出了一种新方法。
+Transformer提出了一种新方法。
+2024-04-06 23:30:34.982 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-06 23:30:34.983 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-06 23:30:36.571 | INFO     | translator.pdf.pdf_translator:translate_pdf:32 - 表格: '[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]'
+2024-04-06 23:30:36.572 | DEBUG    | document.content:set_translation:95 - 表格: [编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]
+2024-04-06 23:30:36.575 | DEBUG    | document.content:set_translation:112 -   表格: [编号  水果 价格(美元)
+0       1  苹果    1.5
+1       2  香蕉    3.5
+2       3   梨    2.7
+3       4  橙子      3
+2024-04-06 23:30:36.581 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\ef5c06a2f96f3388e2fe155d72ddf16a3185574c\test.pdf
+2024-04-06 23:30:36.581 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\ef5c06a2f96f3388e2fe155d72ddf16a3185574c\test_translated.pdf
+2024-04-07 11:33:21.174 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:34:30.536 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 11:36:31.030 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:36:31.033 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 11:36:40.219 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:36:40.221 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 11:36:42.676 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:36:42.676 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 11:37:27.173 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:37:27.176 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 11:37:27.472 | DEBUG    | translator.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-07 11:37:27.474 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-07 11:37:27.478 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 11:37:31.213 | INFO     | translator.pdf_translator:translate_pdf:32 - 变压器
+¶¶¶
+在变压器之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将序列作为输入时，它逐个单词地处理句子。它采用了顺序处理，不能并行执行。此外，当这些序列太长时，模型往往会忘记序列中较远位置的内容，或者将其与后续位置的内容混合在一起。
+¶¶¶
+这里是一个简单的ASCII表示：
+¶¶¶
+变压器提出了一种新方法。它建议对每个位置进行编码，并应用注意机制来关联两个相距较远的单词，然后可以对其进行并行化处理，从而加快训练速度。
+2024-04-07 11:37:31.215 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-07 11:37:31.244 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 11:37:32.730 | INFO     | translator.pdf_translator:translate_pdf:32 - 表格: '[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]'
+2024-04-07 11:37:32.734 | DEBUG    | document.content:set_translation:95 - 表格: [编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]
+2024-04-07 11:37:32.743 | DEBUG    | document.content:set_translation:112 -   表格: [编号  水果 价格(美元)
+0       1  苹果    1.5
+1       2  香蕉    3.5
+2       3   梨    2.7
+3       4  橙子      3
+2024-04-07 11:37:32.759 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1.pdf
+2024-04-07 11:37:32.759 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1_translated.pdf
+2024-04-07 11:37:32.884 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\86187\AppData\Local\Temp\gradio\374faef202609105783b9e7a670dfd79fd7cefcc\test1_translated.pdf
+2024-04-07 13:55:27.145 | DEBUG    | translator.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-07 13:55:27.146 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-07 13:55:27.146 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 13:55:31.003 | INFO     | translator.pdf_translator:translate_pdf:32 - 变压器
+
+在Transformer出现之前，RNN（循环神经网络）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它会逐字逐句地处理句子。它采用了顺序处理，无法并行执行。此外，当这些序列过长时，模型往往会在序列的远处位置忘记内容，或者将其与后续位置的内容混合。
+
+下面是一个简单的ASCII表示：
+
+Transformer提出了一种新方法。它提议对每个位置进行编码，并应用注意机制来关联两个远距离的单词，这样可以并行化处理，从而加快训练速度。
+2024-04-07 13:55:31.005 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-07 13:55:31.010 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 13:55:32.332 | INFO     | translator.pdf_translator:translate_pdf:32 - 表格： '[编号，水果，价格（美元）] [1，苹果，1.5] [2，香蕉，3.5] [3，梨，2.7] [4，橙子，3]'
+2024-04-07 13:55:32.334 | DEBUG    | document.content:set_translation:95 - 表格： [编号,水果,价格（美元）] [1,苹果,1.5] [2,香蕉,3.5] [3,梨,2.7] [4,橙子,3]
+2024-04-07 13:55:32.336 | DEBUG    | document.content:set_translation:112 -   表格： [编号  水果 价格（美元）
+0       1  苹果    1.5
+1       2  香蕉    3.5
+2       3   梨    2.7
+3       4  橙子      3
+2024-04-07 13:55:32.344 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test1.pdf
+2024-04-07 13:55:32.345 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test1_translated.pdf
+2024-04-07 14:16:13.316 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-07 14:16:13.317 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 14:16:15.673 | INFO     | translator.pdf_translator:translate_pdf:32 - '变形金刚
+这里是一个简单的ASCII表示：变形金刚提出了一个新的方法。'
+2024-04-07 14:16:15.674 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2.pdf
+2024-04-07 14:16:15.676 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2_translated.pdf
+2024-04-07 14:17:21.515 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:17:21.519 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 14:17:21.594 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-07 14:17:21.595 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 14:17:23.670 | INFO     | translator.pdf_translator:translate_pdf:32 - '变形者
+¶¶¶
+这是一个简单的ASCII表示：变形者提出了一种新的方法。'
+2024-04-07 14:17:23.670 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:17:23.672 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2_translated.pdf
+2024-04-07 14:17:23.851 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2_translated.pdf
+2024-04-07 14:26:27.439 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:26:27.444 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 14:26:27.474 | INFO     | gui.gui_interface:translate_with_gui:44 - <model.opeanai.openai_model.OpenAIModel object at 0x000001594B6B03A0>
+2024-04-07 14:26:27.475 | INFO     | gui.gui_interface:translate_with_gui:45 - pdf_path: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:27:30.529 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:27:30.531 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-07 14:27:30.563 | INFO     | gui.gui_interface:translate_with_gui:44 - OpenAIModel
+2024-04-07 14:27:30.564 | INFO     | gui.gui_interface:translate_with_gui:45 - pdf_path: C:\Users\86187\AppData\Local\Temp\gradio\101ab9bc494baadfb3f9dcb8732e9c59aa805003\test2.pdf
+2024-04-07 14:27:30.572 | INFO     | gui.gui_interface:translate_with_gui:46 - output_format: PDF
+2024-04-07 14:31:26.391 | INFO     | __main__:<module>:51 - OpenAIModel
+2024-04-07 14:31:26.393 | INFO     | __main__:<module>:52 - pdf_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2.pdf
+2024-04-07 14:31:26.394 | INFO     | __main__:<module>:53 - output_format: PDF
+2024-04-07 14:31:26.411 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-07 14:31:26.412 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 14:31:28.669 | INFO     | translator.pdf_translator:translate_pdf:32 - "變壓器
+這裡是一個簡單的ASCII表示：變壓儀提議了一種新的方法。"
+2024-04-07 14:31:28.670 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2.pdf
+2024-04-07 14:31:28.676 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2_translated.pdf
+2024-04-07 14:55:11.257 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-07 14:55:11.259 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 14:55:26.061 | INFO     | translator.pdf_translator:translate_pdf:32 - 变压器
+这里是一个简单的ASCII表示：变压器提出了一种新的方法。
+2024-04-07 14:55:26.062 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2.pdf
+2024-04-07 14:55:26.064 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2_translated.pdf
+2024-04-07 14:55:26.120 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:<document.content.Paragraph object at 0x000002831491C0D0>
+2024-04-07 14:55:26.121 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:<document.content.Paragraph object at 0x000002831491E110>
+2024-04-07 14:59:55.818 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.'
+Translation (to Chinese):
+2024-04-07 14:59:55.819 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 14:59:57.929 | INFO     | translator.pdf_translator:translate_pdf:32 - ‘变形金刚
+¶¶¶
+这是一个简单的ASCII表示：变形金刚提出了一种新的方法。’
+2024-04-07 14:59:57.931 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2.pdf
+2024-04-07 14:59:57.938 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2_translated.pdf
+2024-04-07 14:59:58.002 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Transformer
+2024-04-07 14:59:58.003 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:‘变形金刚
+2024-04-07 14:59:58.004 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Here'sasimpleASCIIrepresentation: Transformerproposesanewapproach.
+2024-04-07 14:59:58.007 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:这是一个简单的ASCII表示：变形金刚提出了一种新的方法。’
+2024-04-07 14:59:58.021 | INFO     | translator.writer:_save_translated_book_pdf:114 - 翻译完成: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test2_translated.pdf
+2024-04-07 15:00:39.650 | DEBUG    | translator.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]
+2024-04-07 15:00:39.653 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Text: 'Transformer
+¶¶¶
+Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+¶¶¶
+Here'sasimpleASCIIrepresentation:
+¶¶¶
+Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.'
+Translation (to Chinese):
+2024-04-07 15:00:39.654 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 15:00:43.804 | INFO     | translator.pdf_translator:translate_pdf:32 - 变压器
+¶¶¶
+在变压器之前，循环神经网络（RNN）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它逐个处理句子中的单词。它采用顺序处理，不能并行执行。此外，当这些序列太长时，模型往往会忘记序列中远处位置的内容，或者将其混合在后续位置的内容中。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+变压器提出了一种新的方法。它提出对每个位置进行编码，并应用注意力机制来关联两个远距离的单词，从而可以并行化，从而加快训练速度。
+2024-04-07 15:00:43.806 | DEBUG    | translator.pdf_translator:translate_pdf:30 - Table: '[No., Fruit, Price($)] [1, Apple, 1.5] [2, Banana, 3.5] [3, Pear, 2.7] [4, Orange, 3]'
+Translation (to Chinese):
+
+2024-04-07 15:00:43.809 | INFO     | model.opeanai.openai_model:make_request:24 - model: gpt-3.5-turbo
+2024-04-07 15:00:45.540 | INFO     | translator.pdf_translator:translate_pdf:32 - 表格: '[编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]'
+2024-04-07 15:00:45.542 | DEBUG    | document.content:set_translation:95 - 表格: [编号, 水果, 价格(美元)] [1, 苹果, 1.5] [2, 香蕉, 3.5] [3, 梨, 2.7] [4, 橙子, 3]
+2024-04-07 15:00:45.547 | DEBUG    | document.content:set_translation:112 -   表格: [编号  水果 价格(美元)
+0       1  苹果    1.5
+1       2  香蕉    3.5
+2       3   梨    2.7
+3       4  橙子      3
+2024-04-07 15:00:45.557 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test1.pdf
+2024-04-07 15:00:45.558 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test1_translated.pdf
+2024-04-07 15:00:45.616 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Transformer
+2024-04-07 15:00:45.617 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:变压器
+2024-04-07 15:00:45.619 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Before Transformer,RNN (Recurrent Neural Network) wasmainly used to processtext sequence data.WhenRNNtakesthesequenceasinput,itprocessesthesentencewordbyword.Itadopts a sequential processing and cannot be executed in parallel. Additionally, when such sequences are too long, models tend to forget content at distant locations in the sequence or mix it with contentatsubsequentlocations.
+2024-04-07 15:00:45.619 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:在变压器之前，循环神经网络（RNN）主要用于处理文本序列数据。当RNN将这个序列作为输入时，它逐个处理句子中的单词。它采用顺序处理，不能并行执行。此外，当这些序列太长时，模型往往会忘记序列中远处位置的内容，或者将其混合在后续位置的内容中。
+2024-04-07 15:00:45.621 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Here'sasimpleASCIIrepresentation:
+2024-04-07 15:00:45.622 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:这是一个简单的ASCII表示：
+2024-04-07 15:00:45.622 | INFO     | translator.writer:_save_translated_book_pdf:55 - paragraph:Transformer proposes a new approach. It proposes to encode each position and apply an attention mechanism to associate two distant words, which can then be parallelized, thus speedinguptraining.
+2024-04-07 15:00:45.623 | INFO     | translator.writer:_save_translated_book_pdf:56 - translation:变压器提出了一种新的方法。它提出对每个位置进行编码，并应用注意力机制来关联两个远距离的单词，从而可以并行化，从而加快训练速度。
+2024-04-07 15:00:45.641 | INFO     | translator.writer:_save_translated_book_pdf:114 - 翻译完成: D:\\gitee\\open-ai\\openai_translator_helper\\doc-test\\测试文档\\test1_translated.pdf

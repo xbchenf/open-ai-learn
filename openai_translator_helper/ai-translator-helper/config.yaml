@@ -1,0 +1,14 @@
+OpenAIModel:
+  model: "gpt-3.5-turbo"
+  api_key: "your_openai_api_key"
+
+GLMModel:
+  model_url: "your_chatglm_model_url"
+  timeout: 300
+
+ErnieBot:
+  key : ""
+
+common:
+  book: "doc-test/测试文档/test1.pdf"
+  file_format: "PDF"

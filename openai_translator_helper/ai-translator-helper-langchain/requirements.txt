@@ -1,0 +1,12 @@
+gradio
+pdfplumber
+simplejson
+requests
+PyYAML
+pillow
+reportlab
+pandas
+loguru
+openai
+
+pip install gradio pdfplumber simplejson requests PyYAML pillow reportlab pandas loguru openai

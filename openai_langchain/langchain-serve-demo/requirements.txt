@@ -1,0 +1,4 @@
+pip install "langserve[all]"
+
+#pip install "langserve[client]"
+#pip install "langserve[server]"

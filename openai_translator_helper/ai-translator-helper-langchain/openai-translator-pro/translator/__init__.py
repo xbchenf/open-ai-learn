@@ -1,0 +1,1 @@
+from .pdf.pdf_translator import PDFTranslator

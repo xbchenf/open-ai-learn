@@ -1,0 +1,495 @@
+2023-11-03 10:01:10.314 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:01:10.315 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 10:01:10.811 | DEBUG    | translator.pdf_parser:parse_pdf:99 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 10:01:28.230 | INFO     | translator.pdf_translator:translate_pdf:19 - 北京
+¶¶¶
+北京是中国的 sprawling capital，是一个充满历史、文化和创新的城市。它占地 16,410 平方公里，是经济活动、政治力量和文化财富的中心。北京拥有超过 2100 万人口，是传统与现代相遇的熔炉，创造了一种典型的中国风格。
+¶¶¶
+自中国有记录以来的最早历史时期，北京一直是一个重要的中心城市。城市的丰富历史在其众多建筑奇观中得到体现。紫禁城是古代中国帝国的宫殿中心，是中国帝国过去的宏伟见证。其复杂的设计和宏伟的美丽吸引了每年数百万游客，他们惊叹于其富丽堂皇和历史意义。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪的象征，也是一个摇篮。中国国家博物馆位于广场的东侧，为游客提供了一个全面的中国辉煌历史和丰富文化的概述。
+¶¶¶
+距离市中心有点远，我们可以找到中国的长城。这个标志性的纪念碑，在山脉和山谷中曲折穿行，象征着坚韧和创造力的象征。如果没有踏上这个古老工程的壮丽景象，北京之行就会不完整。
+¶¶¶
+但是北京不仅仅是历史。这个城市也是现代和创新的灯塔。标志性的鸟巢体育场和水立方，都是 2008 年北京奥运会的建筑奇观，展示了这个城市对现代设计和可持续性的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的所在地，推动从电子商务到人工智能的一切创新。
+¶¶¶
+这个城市的文化与天际线一样充满活力。北京的美食场所多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市众多的市场和购物区提供从高级时装到传统中国工艺品的一切。
+¶¶¶
+北京是一个对立的城市，古老的宫殿站在高耸的摩天大楼旁边，古老的传统与尖端技术融合，新旧和谐共存。这是一个窥视中国过去、未来、繁荣现状的城市。从繁华的街道到宁静的寺庙，北京的每个方面都讲述着一个深深根植于历史中，但又锐意进取的城市故事。
+2023-11-03 10:01:45.221 | INFO     | translator.pdf_translator:translate_pdf:19 - 上海，中国最人口稠密的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市景观以传统和现代建筑的惊人融合为特色，更在浦东地区的壮丽天际线下彰显，这里有标志性的东方明珠塔和高耸入云的上海中心，是世界上最高的建筑之一，彰显这座城市的进步。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一片历史悠久的滨江区，以殖民时期的建筑物为特色。它成为这座城市殖民往昔的生动提醒，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+上海在文化深度上同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海菜式的独特美食到M50艺术区的艺术表达，上海以独特的方式将传统与现代交织在一起，体现了中国充满活力的活力和文化的丰富性。
+¶¶¶
+以下是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南方，是广东省的首府和中国最大的城市之一。广州历史悠久，是中国最早的对外贸易港口之一，也是中国南方的一个文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜品。广州有许多旅游景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等多种交通方式。广州气候温暖湿润，四季如春，是一个很好的旅游地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 10:01:49.818 | INFO     | translator.pdf_translator:translate_pdf:19 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:01:49.818 | DEBUG    | book.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:01:49.823 | DEBUG    | book.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 10:01:51.320 | INFO     | translator.pdf_translator:translate_pdf:19 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 10:01:51.324 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:01:51.324 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 10:01:51.420 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 10:11:18.560 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:11:18.561 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 10:11:19.049 | DEBUG    | translator.pdf_parser:parse_pdf:99 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 10:11:45.536 | INFO     | translator.pdf_translator:translate_pdf:19 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富交汇之地。北京拥有超过2100万人口，是传统与现代相融合的熔炉，创造了独特的中国风情。
+¶¶¶
+自中国古代历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去体现在其众多建筑奇迹中。紫禁城，中国古帝国的宫殿之心，是中国帝王过去的壮丽见证。其复杂的设计和雄伟的美景每年吸引着数百万游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处就是天安门广场，世界上最大的公共广场，是中国民族自豪感的象征，也是一个承载现代历史的地方。中国国家博物馆坐落在广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远一些，我们可以找到中国的万里长城。这个标志性的纪念碑，蜿蜒穿越山脉和峡谷，象征着坚韧和智慧。如果不踏上这个古老工程的壮丽之地，一次北京之旅将是不完整的。
+¶¶¶
+但是北京不仅仅与历史有关。这座城市也是现代性和创新的象征。标志性的鸟巢体育场和水立方体，都是2008年北京奥运会的建筑奇观，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经确立自己作为一个全球中心。它是百度、京东和字节跳动等科技巨头的所在地，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化和其天际线一样充满活力。北京的烹饪风格多样，以举世闻名的北京烤鸭和各种其他美食而闻名。城市的众多市场和购物区提供了从高时尚到传统中国工艺品的各种商品。
+¶¶¶
+北京是一个充满对比的城市，在高耸的摩天大楼旁边有着世纪古老的宫殿，在古老传统与尖端技术融合的地方，新旧并存并和谐共处。它是一个向我们展示中国过去、未来和繁荣现在的窗口。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，但又雄心勃勃追求星辰大海的故事。
+2023-11-03 10:12:01.309 | INFO     | translator.pdf_translator:translate_pdf:19 - 上海，中国人口最多的城市，是东西方相遇的充满活力的大都市。上海总面积为 6,341 平方公里，是国际金融、商业和文化中心。城市景观是传统和现代建筑的惊人融合，彰显了浦东区的壮丽天际线，其中标志性的东方明珠塔和高耸的上海塔，是世界上最高的建筑之一，表现了城市的进步。
+¶¶¶
+上海的丰富历史得以保留在如外滩一类的地区，历史悠久的滨水建筑。它是城市殖民过去的生动证明，与黄浦江对岸的现代天际线形成反差。
+¶¶¶
+在其文化的深度上，上海同样令人着迷。从繁华的南京路购物区到豫园的宁静，从上海风格的小笼包的美味到 M50 艺术区的艺术表现，上海以独特迷人的方式交织着传统与现代，体现了中国的活力和文化的丰富性。
+¶¶¶
+这是一个简单的 ASCII 表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是南中国的文化中心。广州的美食文化丰富多样，有烧鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有很多景点，如白云山、越秀公园、珠江夜游等。广州的交通便利，有地铁、公交、出租车等各种交通工具。广州气候温暖潮湿，有四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 10:12:06.049 | INFO     | translator.pdf_translator:translate_pdf:19 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:12:06.049 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:12:06.056 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 10:12:08.221 | INFO     | translator.pdf_translator:translate_pdf:19 - 文本：''
+翻译（至中文）：''
+2023-11-03 10:12:08.221 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:12:08.226 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 10:12:08.319 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 10:22:24.864 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:22:24.865 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 10:22:25.365 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:99 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 10:22:41.541 | INFO     | translator.pdf.pdf_translator:translate_pdf:19 - 北京
+¶¶¶
+北京是中国广阔首都，拥有着丰富的历史、文化和创新。占地16410平方公里的北京是经济活动、政治权力和文化财富的中心。北京有2100多万人口，是传统与现代交融的大熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有文字记载的古代以来，北京一直是一个中枢中心。城市丰富的历史在无数建筑奇观中得以体现。紫禁城是中国古代帝国的宫殿中心，表现了中国帝王昔日的辉煌。它精致的设计和雄伟的美丽每年吸引着数百万游客，他们为它的丰富和历史意义感到惊叹。
+¶¶¶
+离紫禁城不远的天安门广场是世界上最大的公共广场，是民族自豪的象征，也是充满现代历史的地方。中国国家博物馆拱卫着广场的东侧，为游客提供了中国历史和文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到长城。 这个标志性的纪念碑，蜿蜒穿过山谷，象征着韧性和才智。如果没有踏上这项古老工程的杰出成就，北京之旅就不够完整。
+¶¶¶
+但是北京不仅仅是历史。这个城市也是现代和创新的前沿。非常出名的'鸟巢'体育场和'水立方'，这两项建筑奇迹来自2008年北京奥运会，展示了城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度，JD.com和字节跳动等科技巨头的故乡，推动着从电子商务到人工智能的创新。
+¶¶¶
+这个城市的文化和天际线一样充满活力。北京的美食场景是多样化的，拥有世界闻名的北京烤鸭和各种其他菜肴。这个城市的众多市场和购物区提供了从高级时装到传统中国工艺品的一切。
+¶¶¶
+北京是一个对比强烈的城市，古老的宫殿屹立在高耸入云的摩天大楼旁，古老的传统与尖端技术融合在一起，古老与现代和谐共存。它是一个向人们展示中国过去、未来和繁荣现状的窗口。从熙熙攘攘的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深植根于历史中，却又有着雄心壮志的城市故事。
+2023-11-03 10:23:01.288 | INFO     | translator.pdf.pdf_translator:translate_pdf:19 - 上海，中国最大的城市，是一个充满活力的大都市，东西方在此交汇。上海的面积达6,341平方公里，是一个国际金融、商业和文化中心。城市风貌以传统与现代建筑巧妙融合为特色，浦东地区的壮丽天际线下更显震撼，那里有标志性的东方明珠塔和高耸入云的上海中心大厦，后者是世界最高的建筑之一，展现了这座城市的发展进步。
+¶¶¶
+上海保留了丰富的历史遗存，象外滩一样，那是一片历史悠久的滨江地区，沿岸有殖民时期的建筑。它成为了这座城市殖民过去的生动见证，与外滩对岸的现代天际线形成鲜明的对比，隔着黄浦江迥然不同。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从熙熙攘攘的南京路购物区到豫园的宁静，从上海风味的汤包到M50艺术区的艺术表现，上海以独特而迷人的方式将传统和现代交织在一起，体现了中国充满活力的活力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表达：
+¶¶¶
+广州，位于中国南方，是广东省的首府和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南方的文化中心。广州的食物文化丰富多样，有烤鹅、叉烧、白斩鸡等各种小吃和特色菜。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等多种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 10:23:04.881 | INFO     | translator.pdf.pdf_translator:translate_pdf:19 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:23:04.884 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 10:23:04.884 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 10:23:06.586 | INFO     | translator.pdf.pdf_translator:translate_pdf:19 - 无法翻译，因为缺少要翻译的文本。
+2023-11-03 10:23:06.595 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 10:23:06.597 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 10:23:06.714 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 11:02:34.537 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:02:34.538 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:02:35.043 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:03:02.364 | INFO     | translator.pdf.pdf_translator:translate_pdf:33 - 北京
+¶¶¶
+北京，中国巨大的首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，这是一个经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相结合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期起，北京一直是一个关键的中心。这座城市丰富的过去在其众多建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿心脏，是中国帝国过去的壮丽的见证。它错综复杂的设计和宏伟的美丽吸引了每年数百万的游客，他们对其富丽堂皇和历史意义感到惊叹。
+¶¶¶
+紫禁城附近的天安门广场是世界上最大的公共广场，是国家自豪感的象征和一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了中国灿烂历史和丰富文化的全面概览。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这座标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和创造力。没有踏上这个古老工程壮丽壮举的地方，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的灯塔。象征性的鸟巢体育场和水立方体，都是来自2008年北京奥运会的建筑奇观，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经确立自己作为一个全球中心。它是百度、京东和字节跳动等科技巨头的所在地，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化和其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。这座城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸入云的摩天大楼并立，古老的传统与尖端技术交融，新与旧和谐共存。它是一个展示中国过去的窗口，一个展望中国未来的一瞥，以及一个繁荣的现代城市的风景。从熙熙攘攘的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深植根于历史中的城市的故事，同时雄心勃勃地追求理想。
+2023-11-03 11:03:21.959 | INFO     | translator.pdf.pdf_translator:translate_pdf:33 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化的中心。这座城市的风景线是传统和现代建筑的惊人融合，浦东区令人印象深刻的天际线凸显出东方明珠塔和高耸入云的上海中心大厦，其中一座世界上最高的建筑之一，展现了该城市的进步。
+¶¶¶
+上海的丰富历史在外滩等地得到保留，外滩是一片历史悠久的滨江区，有殖民地时期的建筑物。它是这座城市殖民地历史的生动提醒，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化深度方面，上海同样令人着迷。从熙熙攘攘的南京路购物区到豫园的宁静，从上海风味的汤包到M50艺术区的艺术表达，上海以独特而迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会城市之一，也是中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州拥有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅行的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:03:25.436 | INFO     | translator.pdf.pdf_translator:translate_pdf:33 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨子, 0.7] [4, 橙子, 1]
+2023-11-03 11:03:25.438 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨子, 0.7] [4, 橙子, 1]
+2023-11-03 11:03:25.439 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3  梨子   0.7
+3  4  橙子     1
+2023-11-03 11:03:27.245 | INFO     | translator.pdf.pdf_translator:translate_pdf:33 - 抱歉，我无法翻译空文本。  (Sorry, I cannot translate empty text.)
+2023-11-03 11:07:41.606 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:07:41.607 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:07:42.097 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:08:07.925 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:08:26.437 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:08:31.443 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:08:31.445 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:08:31.445 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:08:33.835 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:10:44.544 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:10:44.545 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:10:45.045 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:11:10.963 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。2008年北京奥运会的标志性鸟巢体育场和水立方，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧和谐共存。它是一个窥视中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:11:25.697 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:11:30.592 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:11:30.595 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:11:30.595 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:11:32.998 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:11:32.998 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:11:32.998 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: .ai-translator-helper/translated
+2023-11-03 11:15:23.220 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:15:23.221 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:15:23.711 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:15:48.407 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:16:04.559 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:16:08.525 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:16:08.526 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:16:08.526 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:16:11.226 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:16:11.227 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:16:11.227 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: ../../translated
+2023-11-03 11:16:11.328 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: ../../translated
+2023-11-03 11:19:56.223 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:19:56.224 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:19:56.727 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:20:22.445 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:20:40.925 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:20:44.954 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:20:44.954 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:20:44.954 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:20:48.524 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:20:48.524 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:20:48.530 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\translated
+2023-11-03 11:22:48.151 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:22:48.152 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:22:48.652 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:23:15.545 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:23:33.390 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南方的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:23:37.213 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:23:37.219 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:23:37.219 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:23:39.699 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:23:39.699 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:23:39.699 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: D:\translated
+2023-11-03 11:35:57.894 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:35:57.896 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 11:35:58.400 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 11:36:27.115 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 11:36:44.146 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 11:36:48.291 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:36:48.292 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 11:36:48.294 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 11:36:50.451 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 11:36:50.453 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 11:36:50.456 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 11:36:50.558 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 13:15:03.239 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 13:15:03.240 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2023-11-03 13:15:03.757 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2023-11-03 13:15:25.263 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 北京
+¶¶¶
+北京，中国的繁华首都，是一个充满历史、文化和创新的城市。占地16,410平方公里，是经济活动、政治权力和文化财富的中心。北京拥有超过2100万人口，是一个传统与现代相融合的熔炉，创造出独特的中国风情。
+¶¶¶
+自中国有记载的历史的最早时期以来，北京一直是一个重要的中心。这座城市丰富的过去在其众多的建筑奇迹中显而易见。紫禁城，古代中国帝国的宫殿中心，是中国帝国过去的壮丽见证。其复杂的设计和雄伟的美丽吸引了每年数百万的游客，他们对其奢华和历史意义感到惊叹。
+¶¶¶
+紫禁城不远处是天安门广场，世界上最大的公共广场，是国家自豪感的象征，也是一个充满现代历史的地方。中国国家博物馆位于广场的东侧，为游客提供了对中国辉煌历史和丰富文化的全面概述。
+¶¶¶
+离市中心稍远，我们可以找到中国的长城。这个标志性的纪念碑蜿蜒穿越山脉和山谷，象征着坚韧和智慧。如果没有踏上这个古老工程壮丽的壮举，北京之行将是不完整的。
+¶¶¶
+但北京不仅仅是历史。这座城市也是现代和创新的象征。标志性的鸟巢体育场和水立方，都是2008年北京奥运会的建筑奇迹，展示了这座城市对现代设计和可持续发展的承诺。
+¶¶¶
+在技术和商业领域，北京已经成为全球中心。它是百度、京东和字节跳动等科技巨头的总部，推动着从电子商务到人工智能的创新。
+¶¶¶
+这座城市的文化与其天际线一样充满活力。北京的美食场景多样，拥有举世闻名的北京烤鸭和各种其他菜肴。城市的众多市场和购物区提供从高级时尚到传统中国工艺品的一切。
+¶¶¶
+北京是一个充满对比的城市，古老的宫殿与高耸的摩天大楼并立，古老的传统与尖端技术融合，新旧并存和谐共处。它是一个窥探中国过去、展望未来、繁荣现在的城市。从繁忙的街道到宁静的寺庙，北京的每一个方面都讲述着一个深深扎根于历史中，却雄心勃勃地追求星辰大海的故事。
+2023-11-03 13:15:38.820 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - 上海，中国人口最多的城市，是一个东西方相遇的充满活力的大都市。上海占地6,341平方公里，是国际金融、商业和文化中心。城市风貌是传统与现代建筑的惊人融合，浦东区壮丽的天际线下，标志性的东方明珠塔和高耸入云的上海中心大厦，是这座城市进步的象征。
+¶¶¶
+上海的丰富历史在外滩等地得以保留，外滩是一条历史悠久的滨江区，沿岸有殖民时期的建筑。它是这座城市殖民过去的生动见证，与黄浦江对岸的现代天际线形成鲜明对比。
+¶¶¶
+在文化的深度上，上海同样令人着迷。从繁华的南京路购物区到愉园的宁静，从上海风味汤饺的精致到M50艺术区的艺术表达，上海以独特迷人的方式交织着传统与现代，体现了中国充满活力的动力和文化的丰富性。
+¶¶¶
+这是一个简单的ASCII表示：
+¶¶¶
+广州，位于中国南部，是广东省的省会和中国最大的城市之一。广州有着悠久的历史，是中国最早的外贸港口之一，也是中国南部的文化中心。广州的美食文化丰富多样，有烤鹅、叉烧、白切鸡等各种小吃和特色菜肴。广州有许多景点，如白云山、越秀公园、珠江夜游等。广州交通便利，有地铁、公交、出租车等各种交通方式。广州气候温暖湿润，四季如春，是一个旅游的好地方。广州是一个充满活力和魅力的城市，值得一游。
+2023-11-03 13:15:43.246 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 13:15:43.248 | DEBUG    | document.content:set_translation:95 - [编号, 水果, 价格($)] [1, 苹果, 1] [2, 香蕉, 0.5] [3, 梨, 0.7] [4, 橙子, 1]
+2023-11-03 13:15:43.250 | DEBUG    | document.content:set_translation:112 -   编号  水果 价格($)
+0  1  苹果     1
+1  2  香蕉   0.5
+2  3   梨   0.7
+3  4  橙子     1
+2023-11-03 13:15:45.285 | INFO     | translator.pdf.pdf_translator:translate_pdf:34 - Text: ''
+Translation (to Chinese): ''
+2023-11-03 13:15:45.287 | INFO     | translator.writer:_save_translated_book_pdf:30 - pdf_file_path: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2023-11-03 13:15:45.287 | INFO     | translator.writer:_save_translated_book_pdf:31 - 开始翻译: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2023-11-03 13:15:45.390 | INFO     | translator.writer:_save_translated_book_pdf:112 - 翻译完成: C:\Users\李希沅\AppData\Local\Temp\495985b753acbab75fd505512f6d23ef7116ef23\test1_translated.pdf
+2024-04-01 16:02:47.296 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2024-04-01 16:02:47.298 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-01 16:02:47.842 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2024-04-01 16:02:47.845 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:31 - Text: 'Beijing
+¶¶¶
+Beijing,China'ssprawlingcapital,isacityimbuedwithhistory,culture,andinnovation.Spanning over 16,410 square kilometers, it is a hub of economic activity, political power, and cultural wealth. Home to more than 21 million people, Beijing is a melting pot where tradition meets modernity,creatingauniqueblendthatisquintessentiallyChinese.
+¶¶¶
+Since the earliest days of China's recorded history, Beijing has been a pivotal center. The city's rich past is evident in its numerousarchitectural marvels. The Forbidden City,a palatial heart of the ancientChinese empire, is atestament to the grandeurof China's imperial past.Its intricate design andmajesticbeauty attractmillionsofvisitorseach year,who marvel atitsopulence and historicalsignificance.
+¶¶¶
+Not far from the Forbidden City lies Tiananmen Square, the world's largest public square, a symbolofnationalpride,andaplacesteepedinmodernhistory.TheNationalMuseumofChina flanks the square's east side, offering visitors a comprehensive overview of China's illustrious historyandrichculture.
+¶¶¶
+Abitfurtherfromthecitycenter,wefindtheGreatWallofChina.Thisiconicmonument,winding through mountains and valleys, stands as a symbol of resilience and ingenuity. A visit to Beijing wouldbeincompletewithoutsettingfootonthismagnificentfeatofancientengineering.
+¶¶¶
+But Beijing is not just about history. The city is also a beacon of modernity and innovation. The iconicBird'sNeststadiumandtheWaterCube,botharchitecturalwondersfromthe2008Beijing Olympics,showcasethecity'scommitmenttomoderndesignandsustainability.
+¶¶¶
+In the realmof technology and business, Beijing has established itself asa global hub. It's home to tech giants like Baidu, JD.com, and ByteDance, driving innovation in everything from e-commercetoartificialintelligence.
+¶¶¶
+The city's culture is as vibrant as its skyline. Beijing's culinary scene is diverse, boasting world-renowned Peking duck and an array of other dishes. The city's numerous markets and shoppingdistrictsoffereverythingfromhighfashiontotraditionalChinesecrafts.
+¶¶¶
+Beijing is a city of contrasts, where centuries-old palaces stand beside towering skyscrapers, where ancient traditions blend with cutting-edge technology, where the old and new coexist in harmony.It'sacitythatoffersawindowintoChina'spast,aglimpseofitsfuture,andaviewofits thriving present. From its bustling streets to its tranquil temples, every facet of Beijing tells a storyofacitythatisdeeplyrootedinitshistory,yetambitiouslyreachingforthestars.'
+Translation (to Chinese):
+2024-04-01 16:28:34.049 | DEBUG    | gui.gui_interface:translate_with_gui:25 - PDF文件路径: C:\Users\86187\AppData\Local\Temp\gradio\495985b753acbab75fd505512f6d23ef7116ef23\test1.pdf
+2024-04-01 16:28:34.052 | DEBUG    | gui.gui_interface:translate_with_gui:26 - 目标语言: Chinese
+2024-04-01 16:28:34.795 | DEBUG    | translator.pdf.pdf_parser:parse_pdf:121 - [table]
+[No., Fruit, Price($)] [1, Apple, 1] [2, Banana, 0.5] [3, Pear, 0.7] [4, Orange, 1]
+2024-04-01 16:28:34.797 | DEBUG    | translator.pdf.pdf_translator:translate_pdf:30 - Text: 'Beijing
+¶¶¶
+Beijing,China'ssprawlingcapital,isacityimbuedwithhistory,culture,andinnovation.Spanning over 16,410 square kilometers, it is a hub of economic activity, political power, and cultural wealth. Home to more than 21 million people, Beijing is a melting pot where tradition meets modernity,creatingauniqueblendthatisquintessentiallyChinese.
+¶¶¶
+Since the earliest days of China's recorded history, Beijing has been a pivotal center. The city's rich past is evident in its numerousarchitectural marvels. The Forbidden City,a palatial heart of the ancientChinese empire, is atestament to the grandeurof China's imperial past.Its intricate design andmajesticbeauty attractmillionsofvisitorseach year,who marvel atitsopulence and historicalsignificance.
+¶¶¶
+Not far from the Forbidden City lies Tiananmen Square, the world's largest public square, a symbolofnationalpride,andaplacesteepedinmodernhistory.TheNationalMuseumofChina flanks the square's east side, offering visitors a comprehensive overview of China's illustrious historyandrichculture.
+¶¶¶
+Abitfurtherfromthecitycenter,wefindtheGreatWallofChina.Thisiconicmonument,winding through mountains and valleys, stands as a symbol of resilience and ingenuity. A visit to Beijing wouldbeincompletewithoutsettingfootonthismagnificentfeatofancientengineering.
+¶¶¶
+But Beijing is not just about history. The city is also a beacon of modernity and innovation. The iconicBird'sNeststadiumandtheWaterCube,botharchitecturalwondersfromthe2008Beijing Olympics,showcasethecity'scommitmenttomoderndesignandsustainability.
+¶¶¶
+In the realmof technology and business, Beijing has established itself asa global hub. It's home to tech giants like Baidu, JD.com, and ByteDance, driving innovation in everything from e-commercetoartificialintelligence.
+¶¶¶
+The city's culture is as vibrant as its skyline. Beijing's culinary scene is diverse, boasting world-renowned Peking duck and an array of other dishes. The city's numerous markets and shoppingdistrictsoffereverythingfromhighfashiontotraditionalChinesecrafts.
+¶¶¶
+Beijing is a city of contrasts, where centuries-old palaces stand beside towering skyscrapers, where ancient traditions blend with cutting-edge technology, where the old and new coexist in harmony.It'sacitythatoffersawindowintoChina'spast,aglimpseofitsfuture,andaviewofits thriving present. From its bustling streets to its tranquil temples, every facet of Beijing tells a storyofacitythatisdeeplyrootedinitshistory,yetambitiouslyreachingforthestars.'
+Translation (to Chinese):
